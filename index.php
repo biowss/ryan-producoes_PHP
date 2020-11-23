@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Produções</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles/index.css">
+</head>
+<body>
+  
+  <header>
+    <!-- Nav -->
+    <div class="nav-section w-100">
+        <nav class="navbar w-100 ml-auto">
+            <ul class="w-100 mt-2 pl-0">
+                <li class="text-center"><a class="header-button" href="#home">Inicio</a></li>
+                <li class="text-center"><a class="header-button" href="#about">Sobre</a></li>
+                <li class="text-center"><a class="header-button" href="#services">Serviços</a></li>
+                <li class="text-center"><a class="header-button" href="#contact">Contato</a></li>
+                <li class="text-center"><a class="header-button" href="./login.php">Área do Cliente</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <div class="upper-section">
+      <div class="section-text">
+          <h1>Ryan Produções</h1>
+          <p>Sua melhor opção em Produções e Eventos</p>
+      </div>
+    </div>
+</header>
+<main>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+          <div class="col-md">
+              <h2 class="section-title">Sobre Nós</h2>
+          </div>
+      </div>
+
+      <div class="row justify">
+        <div class="col-md mb-4">
+            <p>Queremos contribuir para um universo músical inclusivo e cooperativo onde todos possam compartilhar da qualidade de uma boa batida.</p>
+        </div>
+        <div class="col-md mb-4">
+            <p>Criar eventos de qualidade e seguros a todos faz parte da missão da empresa. Utilizando dos melhores equipamentos disponiveis e treinando uma equipe especializada.</p>
+        </div>
+        <div class="col-md mb-4">
+            <p>Acreditamos na paixão das pessoas pela música e que não precisa se pagar muito caro para que se tenha um serviço de qualidade. Sempre buscamos prestar serviços de alta qualidade e com preços acessíveis </p>
+        </div>
+
+        <div class="row w-100 mt-5 p-2 align-middle ">
+          <div class="col-md mb-5">
+              <div class="image-align">
+                <img src="./Images/team-00.jpg" class="rounded-circle w-75">
+              </div>
+          </div>
+          <div class="col-md">
+              <div class="team-name">
+                <h3>Felipe Matos</h3>
+                <p>CEO</p>
+              </div>
+              <div class="team-description mr-5">
+                <p> Desprovido de dotes musicais, se satisfaz ao escutar músicas de qualidade. Jovem empreendedor, estudante de Engenharia de Computação na UNIFACS e de Analise e Desenvolvimento no SENAI. Aos seus 24 anos, decidiu investir na produção de eventos.</p>
+              </div>
+          </div>          
+        </div>
+      </div>      
+    </div>
+  </section>
+  <hr/>
+
+  
+  <!-- Services Section -->
+  <section class="services" id="services">
+      <div class="container">
+        <div class="row">
+            <div class="col-md text-center">
+                <h2 class="section-title">Serviços</h2>
+            </div>
+        </div>
+        <div class="row icon-row">
+            <div class="col-md text-center mb-3">
+                <img src="./Icons/electric-guitar.svg" class="icon"><br/>
+                Locação de Equipamentos
+            </div>
+            <div class="col-md text-center mb-3">
+                <img src="./Icons/dvd.svg" class="icon"><br/>
+                Produção Musical
+            </div>
+            <div class="col-md text-center mb-3">
+                <img src="./Icons/servico.svg" class="icon"><br/>
+                Equipes Especializadas
+            </div>
+        </div>
+        <div class="row icon-row">
+          <div class="col-md text-center mb-3">
+              <img src="./Icons/location.svg" class="icon"><br/>
+              Estrutura e Localização
+          </div>
+          <div class="col-md text-center mb-3">
+              <img src="./Icons/ticket.svg" class="icon"><br/>
+              Organização e Venda de Ingressos
+          </div>
+          </div>
+        <div class="row justify">
+          <div class="col-md mb-4">
+              <p>Estaremos em busca da melhor estrutura e localização par ao seu evento, com o máximo de conformidade para seus participantes e acústica para os membros.</p>
+          </div>
+          <div class="col-md mb-4">
+              <p>Disponibilizamos locação de equipamentos, caso aja necessidade. Fazemos a cobertura completa do evento, com direito a produção músical de CDs ou DVDs. Temos equipes especializadas para a gestão, segurança, alimentação e limpeza do ambiente.</p>
+          </div>
+          <div class="col-md mb-4">
+              <p>Efetuamos a venda dos ingressos em parceria com as mais conhecidas empresas, separando o melhor para nossos clientes.</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+          <div class="col-md">
+              <h2 class="section-title text-center">Contato</h2>
+          </div>
+      </div>
+      <div class="row mb-5 justify">
+          <div class="col-md pl-5 pr-5 mb-5">
+            Ligue para a gente!
+            <br/>
+            +55 (71) 99999-9999
+          </div>
+          <div class="col-md pl-5 pr-5 mb-5">
+            Endereço:
+            <br/>
+            SHN Quadra 5 Bloco J, Lote L - Asa Norte, Asa norte, Brasília, CEP 70705-100
+          </div>
+          <div class="col-md pl-5 pr-5 mb-5">
+            E-mail:
+            <br/>
+            Ryan.Produções@exemplo.com.br
+          </div>
+      </div>
+      <form action="">
+        <div class="row">
+          <div class="col-md">
+            <div class="form-group mb-4">                            
+              <label for="contact-name">Nome Completo:</label>
+              <input type="text" class="form-control" id="contact-name" placeholder="Nome Sobrenome" required>
+            </div>
+            <div class="form-group mb-4">
+              <label for="contact-email">Endereço de E-mail:</label>
+              <input type="email" class="form-control" id="contact-email" placeholder="nome.sobrenome@exemplo.com.br" required>
+            </div>
+            <div class="form-group mb-4">
+              <label for="contact-subject">Assunto:</label>
+              <select class="form-control" id="contact-subject" required>
+                <option disabled selected value>Selecione uma opção</option>
+                <option value="sugestoes">Sugestões</option>
+                <option value="servicos">Serviços</option>
+                <option value="reclamacoes">Reclamações</option>
+                <option value="elogios">Elogios</option>
+                <option value="outros">Outros</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-group">
+              <label for="contact-description">Descrição:</label>
+              <textarea class="form-control" id="contact-description" rows="8" placeholder="Descreva seu assunto aqui..."></textarea>
+            </div>
+            
+            <button type="submit" class="w-100">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-md-8 mb-5">
+          <h3>Créditos</h3>
+          <p>Site criado por Felipe Alves Matos.</p>                    
+          <p>Inspirado no template <a href="https://lautenschlager.de/downloads/online-templates/beblack-a-creative-onepager-free-to-use/">Be Black</a></p>
+      </div>
+      <div class="col-md-4">
+          <h3>Links</h3>
+          <ul>
+            <li><a class="footer-button" href="#home">Inicio</a></li>
+            <li><a class="footer-button" href="#about">Sobre</a></li>
+            <li><a class="footer-button" href="#services">Serviços</a></li>
+            <li><a class="footer-button" href="#contact">Contato</a></li>
+            <li><a class="footer-button" href="./login/login.php">Área do Cliente</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+</body>
+</html>
