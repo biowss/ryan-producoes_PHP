@@ -34,14 +34,20 @@
 			<nav id="sidebar" class="active">
 				<h1><a href="#" class="logo">R.</a></h1>
         <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="./dashboard-admin.php"><span class="fa fa-home"></span> Início </a>
+          </li>
+          <li>
+            <a href="./dashboard-admin-eventos.php"><span class="fa fa-plane"></span> Eventos </a>
+          </li>
           <li class="active">
-            <a href="#"><span class="fa fa-home"></span> Inicio </a>
+            <a href="#"><span class="fa fa-users"></span> Usuários </a>
           </li>
           <li>
-              <a href="#"><span class="fa fa-cogs"></span> Serviços </a>
+            <a href="./dashboard-admin-servicos.php"><span class="fa fa-cogs"></span> Serviços </a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-paper-plane"></span> Perfil </a>
+            <a href="./index.php"><span class="fa fa-sign-out"></span> Logout </a>
           </li>
         </ul>
     	</nav>
@@ -59,13 +65,11 @@
           </div>
         </nav>
         
-        <?php include_once "./Modals/usuarios.php"  ?>
-        <hr>
-        <?php include_once "./Modals/servicos.php"  ?>
+        <?php include_once "./Modals/usuarios.php" ?>
 
       </div>
 		</div>
 
-    <script src="scripts/dashboard.js"></script>
+    <script src="Scripts/dashboard.js"></script>
   </body>
 </html>

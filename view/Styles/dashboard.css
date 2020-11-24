@@ -3,7 +3,6 @@
 * {  
   scroll-behavior: smooth;
 }
-
 body {
 	font-size: 1.0em; /* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.6;
@@ -11,20 +10,20 @@ body {
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; 
 }
-
 .bg-white {
   background-color: #fff;
   color: #000;
 }
-
+.bg-black {
+  background-color: #0f0f0f !important;
+  color: #fff !important;
+}
 .justify-left {
   justify-content: left !important;
 }
-
 .flex {
   display: flex;
 }
-
 .flow-column {
   flex-flow: column;
 }
@@ -93,6 +92,9 @@ button.light:hover, button.light:focus {
 	color: #fff;
 }
 
+#sidebar .active {
+  background-color: #1EAEDB;
+}
 
 #sidebar {
   min-width: 270px;
