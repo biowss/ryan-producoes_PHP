@@ -47,6 +47,9 @@
             <a href="./dashboard-admin-servicos.php"><span class="fa fa-cogs"></span> Serviços </a>
           </li>
           <li>
+            <a href="./dashboard-admin-relatorios.php"><span class="fa fa-book"></span> Relatorios </a>
+          </li>
+          <li>
             <a href="./index.php"><span class="fa fa-sign-out"></span> Logout </a>
           </li>
         </ul>

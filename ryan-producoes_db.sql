@@ -38,7 +38,6 @@ CREATE TABLE `eventos` (
 insert  into `eventos`(`evento_id`,`evento_titulo`,`evento_descricao`,`evento_inicio`,`evento_termino`,`evento_situacao`,`fk_usuario`) values 
 (1,'Villas Party','Festa em vilas para 45 pessoas, open bar e musica ao vivo','0000-00-00 00:00:00',NULL,'Aberto',4),
 (9,'Bahia Café Hall','Evento do Bahia Café Hall','2020-11-30 02:24:00','2020-12-02 02:24:00','Aberto',4),
-(11,'Gravação de CD - Anildo','Gravação de CD de Anildo','2020-11-01 11:05:00','2020-11-10 11:05:00','Finalizado',4),
 (12,'Festa de Reveillon - Salvador','Festa para 150 pessoas, open bar, palco com apresentações','2019-12-31 13:00:00','2020-01-01 00:00:00','Finalizado',4);
 
 /*Table structure for table `eventos_servicos` */
@@ -61,7 +60,6 @@ insert  into `eventos_servicos`(`evento_id`,`servico_id`) values
 (1,3),
 (9,2),
 (9,3),
-(11,2),
 (12,2),
 (12,3);
 

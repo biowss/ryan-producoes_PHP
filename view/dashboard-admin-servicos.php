@@ -35,7 +35,7 @@
 				<h1><a href="#" class="logo">R.</a></h1>
         <ul class="list-unstyled components mb-5">
           <li>
-            <a href="./dashboard-admin"><span class="fa fa-home"></span> Início </a>
+            <a href="./dashboard-admin.php"><span class="fa fa-home"></span> Início </a>
           </li>
           <li>
             <a href="./dashboard-admin-eventos.php"><span class="fa fa-plane"></span> Eventos </a>
@@ -45,6 +45,9 @@
           </li>
           <li class="active">
             <a href="#"><span class="fa fa-cogs"></span> Serviços </a>
+          </li>
+          <li>
+            <a href="./dashboard-admin-relatorios.php"><span class="fa fa-book"></span> Relatorios </a>
           </li>
           <li>
             <a href="./index.php"><span class="fa fa-sign-out"></span> Logout </a>

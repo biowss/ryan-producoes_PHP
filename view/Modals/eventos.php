@@ -16,10 +16,10 @@
   </div>
   <div class="card-deck mb-5">
     <?php 
-      $query = "SELECT * FROM eventos
+      $queryEventos = "SELECT * FROM eventos
                   INNER JOIN usuarios ON eventos.fk_usuario = usuarios.usuario_id
                   ORDER BY eventos.evento_situacao, usuarios.usuario_id, eventos.evento_inicio, eventos.evento_titulo";
-      $stmt = $objAdmin->runQuery($query);
+      $stmt = $objAdmin->runQuery($queryEventos);
       $stmt->execute();
 
       if($stmt->rowCount() > 0) {
