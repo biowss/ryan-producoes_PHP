@@ -31,14 +31,14 @@ CREATE TABLE `eventos` (
   PRIMARY KEY (`evento_id`),
   KEY `fk_usuario` (`fk_usuario`),
   CONSTRAINT `eventos_ibfk_2` FOREIGN KEY (`fk_usuario`) REFERENCES `usuarios` (`usuario_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4;
 
 /*Data for the table `eventos` */
 
 insert  into `eventos`(`evento_id`,`evento_titulo`,`evento_descricao`,`evento_inicio`,`evento_termino`,`evento_situacao`,`fk_usuario`) values 
-(1,'Villas Party','Festa em vilas para 45 pessoas, open bar e musica ao vivo','0000-00-00 00:00:00',NULL,'Aberto',4),
-(9,'Bahia Café Hall','Evento do Bahia Café Hall','2020-11-30 02:24:00','2020-12-02 02:24:00','Aberto',4),
-(12,'Festa de Reveillon - Salvador','Festa para 150 pessoas, open bar, palco com apresentações','2019-12-31 13:00:00','2020-01-01 00:00:00','Finalizado',4);
+(9,'Bahia Café Halll','Evento do Bahia Café Hall','2020-11-30 02:24:00','2020-12-02 02:24:00','Aberto',4),
+(12,'Festa de Reveillon - Salvador','Festa para 150 pessoas, open bar, palco com apresentações','2019-12-31 13:00:00','2020-01-01 00:00:00','Finalizado',4),
+(14,'teste de evento','evento tal tal tal','2020-12-01 10:49:00','2020-12-10 10:49:00','Aberto',6);
 
 /*Table structure for table `eventos_servicos` */
 
@@ -56,12 +56,12 @@ CREATE TABLE `eventos_servicos` (
 /*Data for the table `eventos_servicos` */
 
 insert  into `eventos_servicos`(`evento_id`,`servico_id`) values 
-(1,2),
-(1,3),
 (9,2),
 (9,3),
 (12,2),
-(12,3);
+(12,3),
+(14,4),
+(14,6);
 
 /*Table structure for table `servicos` */
 
@@ -72,14 +72,15 @@ CREATE TABLE `servicos` (
   `servico_titulo` varchar(150) NOT NULL,
   `servico_descricao` varchar(300) DEFAULT NULL,
   PRIMARY KEY (`servico_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
 
 /*Data for the table `servicos` */
 
 insert  into `servicos`(`servico_id`,`servico_titulo`,`servico_descricao`) values 
 (2,'Aluguel de Equipamentos','Serviço de aluguel de equipamentos para uso em eventos.'),
 (3,'Prestação de serviços','Fornecimento de pessoal para eventos.'),
-(4,'Gravação de CD','Gravação de CD e tratamento sonoro');
+(4,'Gravação de CD','Gravação de CD e tratamento sonoro'),
+(6,'serviço','serviço');
 
 /*Table structure for table `usuarios` */
 
@@ -92,13 +93,14 @@ CREATE TABLE `usuarios` (
   `usuario_admin` tinyint(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`usuario_id`),
   UNIQUE KEY `user` (`usuario_nome`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
 
 /*Data for the table `usuarios` */
 
 insert  into `usuarios`(`usuario_id`,`usuario_nome`,`usuario_senha`,`usuario_admin`) values 
 (2,'admin@admin','admin',1),
-(4,'cliente@cliente','cliente',0);
+(4,'cliente@cliente','cliente',0),
+(6,'teste@teste','teste',0);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

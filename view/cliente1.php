@@ -1,13 +1,6 @@
 <?php 
   require_once '../model/cliente.php';
   $objCliente = new Cliente();
-  session_start();
-  $id = $_SESSION["id"];
-  $user = $_SESSION["user"];
-  $activity = $_SESSION["last_activity"];
-  
-  echo $id;
-  echo $user;
 ?>
 
 

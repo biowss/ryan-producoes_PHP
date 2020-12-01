@@ -1,19 +1,5 @@
 <div class="container flex flow-column" id="events" style="height: 100vh;">
-  <h2>Eventos</h2>
-  <div class="form-group">
-  <div class="form-group flex">    
-    <div class="form-group w-25">
-      <select class="form-control" id="tableFilter" name="filter" onChange="filter()">
-        <option value="">Selecione...</option>
-        <option value="Aberto">Aberto</option>
-        <option value="Cancelado">Cancelado</option>
-        <option value="Finalizado">Finalizado</option>
-      </select>
-    </div>
-    <button type="button" class="mb-4 ml-auto" data-toggle="modal" data-target="#modalCadastrarEventos">
-      Cadastrar Evento
-    </button>
-  </div>
+  <h2>Eventos</h2>  
   <div class="card-deck mb-5">
     <?php 
       $queryEventos = "SELECT * FROM eventos

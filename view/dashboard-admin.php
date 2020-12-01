@@ -50,7 +50,7 @@
             <a href="./dashboard-admin-relatorios.php"><span class="fa fa-book"></span> Relatorios </a>
           </li>
           <li>
-            <a href="../index.php"><span class="fa fa-sign-out"></span> Logout </a>
+            <a href="./index.php"><span class="fa fa-sign-out"></span> Logout </a>
           </li>
         </ul>
     	</nav>
